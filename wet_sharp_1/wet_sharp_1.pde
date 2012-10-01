@@ -19,6 +19,8 @@ void setup()
   background(0);
   smooth();
   canvas = createGraphics(canvas_width, canvas_height, P2D);
+  
+  //canvas.translate(canvas.width / 30, canvas.height / 20);
 
   calculateResizeRatio();
 
@@ -29,7 +31,6 @@ void setup()
   canvas.strokeCap(SQUARE);
   canvas.strokeJoin(MITER);
   canvas.fill(0);
-  canvas.translate(canvas.width / 365, canvas.height / 600);
 
   /* Sharp
    __________________________________________________________________*/
